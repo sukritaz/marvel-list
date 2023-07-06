@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section3 {
+    display: flex;
+    background-color: #e5e7eb;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px;
+}
+
+.section1 {
+    padding: 32px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    height: 300px;
+}
+.section2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    margin-bottom: 48px;
+}
+.section4{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call {
+    display: flex;
+    width: 500px;
+    height: auto;
+    background-color: #3882f6;
+    justify-content: space-around;
+    padding: 32px;
+    border-radius: 10px;
+    margin: 48px;
+}
+.info-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 48px;
+    margin-top: 48px;
+    font-weight: 600;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+    object-position: center;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+.characters {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.character {
+    width: 250px;
+    height: auto;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+    object-fit: fill;
+}
+
+.footer {
+    flex: 1;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 12px
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 600px;
+    
+}
+.big-text {
+    font-size: 48px;
+    font-weight: 800;
+}
+.text-header {
+    font-size: 24px;
+}
+
+.avengers-img {
+    width: 350px;
+    height: auto;
+}
+.header-division {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-links {
+    display: flex;
+    gap: 24px;
+}
+
+.call-text {
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+}
+.call-text-small {
+    color: white;
+    font-size: 18px;
+}
+button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    border-color: white;
+    border: 2px solid white;
+    width: 100px;
+    color: white;
+}
+
+.quotes {
+    display: flex;
+    font-style: italic;
+    font-size: 28px;
+    justify-content: center;
+    font-weight: 100;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.author {
+    display: flex;
+    font-style: italic;
+    font-size: 18px;
+    justify-content: right;
+    font-weight: 100;
+    margin-right: 300px;
+    margin-left: 200px;
+}
